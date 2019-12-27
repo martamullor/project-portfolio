@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(Kollektif.ttf);
+    }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Kollektif;
+}
+
+
+
+main {
+    background-image: url("img/home-2.jpg");
+}
