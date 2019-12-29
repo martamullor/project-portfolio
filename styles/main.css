@@ -48,6 +48,7 @@
 .cover-text {
     position: absolute;
     text-align: center;
+    width: 100vw;
 }
 
 .cover-title {
