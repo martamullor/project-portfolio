@@ -23,7 +23,9 @@
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    width: 100vw;   
+    top: 1px;
+    width: 100%; 
+    z-index:1; 
 }
 
 .menu-icon {
