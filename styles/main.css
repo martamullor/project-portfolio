@@ -67,7 +67,7 @@
 
 .cover-paragraph {
     font-size: 1.6rem;
-    padding: 0px 55px 50px 55px;
+    margin: 0px 55px 50px 55px;
 }
 
 
@@ -82,8 +82,10 @@
 }
 
 .cover-button:hover {
-    background-color: #a05824;
+    background-color: #bc6d32;
+    font-size: 1.8rem;
 }
+
 
 .cover-social {
     display: flex;
@@ -95,7 +97,7 @@
 
 .social-icon {
     width: 32px;
-    padding: 20px 12px 40px 12px;
+    padding: 10px 12px 40px 12px;
 }
 
 /* section */
@@ -111,20 +113,20 @@
     height: 400px; 
 }
 
-
 .text-section {
     position: relative;
     width: 94%;
     text-align: right;
-    padding: 50px 10px 0px 0px;
+    padding: 40px 10px 0px 0px;
 }
 
 .title-section {
     font-size: 4rem;
 }
 
-.paragraph-section {
+.paragraph-section, a {
     font-size: 1.3rem;
+    text-decoration: none;
 }
 
 
@@ -141,6 +143,7 @@
     font-size: 3.8rem;
     padding-top: 20px;
 }
+
 .form {
     display: flex;
     flex-direction: column;
@@ -162,6 +165,11 @@
     color: white;
     font-size: 1.3rem;
     text-transform: uppercase;
+}
+
+.form-button:hover {
+    background-color: #bc6d32;
+    font-size: 1.5rem;
 }
 
 /* footer */
@@ -186,6 +194,190 @@
 .footer-credits-text {
     color: white;
 }
+
+/* Media Queries for IPAD */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .menu {
+        position: absolute;
+    }
+    .menu-icon {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .menu-list{
+        display: flex;
+        visibility: inherit;
+        padding: 20px;
+    }
+
+    .menu-list li {
+        list-style: none;
+    }
+
+    .menu-element {
+        text-decoration: none;
+        margin-right: 16px;
+        padding: 9px;
+        font-size: 1.4rem;
+    }
+
+    .menu-element:hover {
+        color: white;
+        background-color: #bc6d32;
+    }
+
+    .cover-title {
+        padding-top: 135px;
+    }
+
+    .cover {
+        background-image: url("../img/768-cover.jpg");
+    }
+
+    .cover-paragraph {
+        margin: 0px 230px 50px 230px;
+    }
+
+    .first-section {
+        background-image: url("../img/768-section-1.jpg");  
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+    .second-section {
+        background-image: url("../img/768-section-2.jpg");  
+        height: 400px; 
+    }
+    
+  }
+
+  /* Media Queries for Desktop */
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .menu {
+        position: absolute;
+    }
+    .menu-icon {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .menu-list{
+        display: flex;
+        visibility: inherit;
+        padding: 20px;
+    }
+
+    .menu-list li {
+        list-style: none;
+    }
+
+    .menu-element {
+        text-decoration: none;
+        margin-right: 16px;
+        padding: 9px;
+        font-size: 1.4rem;
+    }
+
+    .menu-element:hover {
+        color: white;
+        background-color: #bc6d32;
+    }
+
+    .cover-title {
+        padding-top: 135px;
+    }
+
+    .cover {
+        background-image: url("../img/1025-cover.jpg");
+    }
+
+
+    .cover-paragraph {
+        margin: 0px 390px 50px 390px;
+    }
+
+    .sections-container {
+        display: flex;
+    }
+
+    .first-section {
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+
+    .second-section {
+        flex-grow: 1;
+    }
+ 
+  }
+
+  @media (min-width: 1281px) {
+  
+    .menu {
+        position: absolute;
+    }
+    .menu-icon {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .menu-list{
+        display: flex;
+        visibility: inherit;
+        padding: 20px;
+    }
+
+    .menu-list li {
+        list-style: none;
+    }
+
+    .menu-element {
+        text-decoration: none;
+        margin-right: 16px;
+        padding: 9px;
+        font-size: 1.4rem;
+    }
+
+    .menu-element:hover {
+        color: white;
+        background-color: #bc6d32;
+    }
+
+    .cover-title {
+        padding-top: 135px;
+    }
+
+    .cover {
+        background-image: url("../img/1281-cover.jpg");
+    }
+
+
+    .cover-paragraph {
+        margin: 0px 520px 50px 520px;
+    }
+
+    .sections-container {
+        display: flex;
+    }
+
+    .first-section {
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+
+    .second-section {
+        flex-grow: 1;
+    }
+
+    .form {
+        margin: 0px 180px 0px 180px;
+    }
+  }
 
 
 

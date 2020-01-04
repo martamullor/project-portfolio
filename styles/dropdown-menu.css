@@ -40,9 +40,14 @@
 .dropdown-menu-link {
     font-size: 5rem;
     font-family: Kollektif-Bold;
-    padding: 125px 0px 30px 0px;
+    margin: 125px 0px 30px 0px;
     color: #efefef;
     text-decoration: none;
+}
+
+.dropdown-menu-link:hover {
+    color: #bc6d32;
+    font-size: 5.4rem;
 }
 
 /* footer */
