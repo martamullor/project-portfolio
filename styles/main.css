@@ -77,8 +77,6 @@
     padding: 12px 50px 12px 50px;
     background-color: #242424;
     color: white;
-    animation-duration: 1s;
-    animation-name: fadein;
 }
 
 .cover-button:hover {
@@ -97,7 +95,7 @@
 
 .social-icon {
     width: 32px;
-    padding: 10px 12px 40px 12px;
+    margin: 10px 12px 40px 12px;
 }
 
 /* section */
@@ -141,7 +139,7 @@
 
 .title-form {
     font-size: 3.8rem;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .form {
@@ -181,7 +179,7 @@
 
 .footer-social-icon {
     width: 30px;
-    padding: 20px 20px 40px 20px;
+    margin: 20px 20px 40px 20px;
 }
 
 .footer-credits {

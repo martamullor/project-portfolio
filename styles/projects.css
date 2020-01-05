@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(Kollektif.ttf);
+    }
+
+@font-face {
+    font-family: Kollektif-Bold;
+    src: url(Kollektif-Bold.ttf);
+    }
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Kollektif;
+    color: #242424;
+}
+
+/* Nav */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 1px;
+    width: 100%; 
+    z-index:1; 
+}
+
+.menu-icon {
+    width: 35px;
+    padding: 10px;
+}
+
+.menu-list{
+    display: none;
+    visibility: hidden;
+}
+
+/* Main */
+
+.projects-container {
+    display: flex;
+    border: 3px solid green;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px 0px 40px 0px;
+}
+
+.project-cover {
+    border: 3px solid red;
+    width: 100vw;
+    height: 300px;
+    flex-wrap: wrap;
+}
+/* footer */
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-icon {
+    width: 30px;
+    margin: 20px 20px 40px 20px;
+}
+
+.footer-credits {
+    background-color: #242424;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+}
+
+
+.footer-credits-text {
+    color: white;
+}
