@@ -21,17 +21,30 @@
 
 .menu {
     display: flex;
-    justify-content: flex-end;
     position: fixed;
-    top: 1px;
-    width: 100%; 
+    width: 100vw;
     z-index:1; 
 }
 
+.menu-logo-container {
+    flex-grow: 1; 
+}
+
+.menu-logo {
+    width: 35px;
+    padding: 25px;
+}
+
+.menu-icon-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
 
 .menu-icon {
     width: 35px;
-    padding: 10px;
+    padding: 25px;
 }
 
 .menu-list{
@@ -225,7 +238,7 @@
     .menu-list{
         display: flex;
         visibility: inherit;
-        padding: 20px;
+        padding: 35px 20px 20px 20px;
     }
 
     .menu-list li {
@@ -275,7 +288,7 @@
     .menu-list{
         display: flex;
         visibility: inherit;
-        padding: 20px;
+        padding: 35px 20px 20px 20px;
     }
 
     .menu-list li {
@@ -326,7 +339,7 @@
     .menu-list{
         display: flex;
         visibility: inherit;
-        padding: 20px;
+        padding: 35px 20px 20px 20px;
     }
 
     .menu-list li {

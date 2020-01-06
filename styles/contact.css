@@ -28,14 +28,21 @@
     z-index:1; 
 }
 
-.menu-icon {
-    width: 35px;
-    padding: 10px;
+
+.menu-logo-container {
+    flex-grow: 1; 
 }
 
-.menu-list{
-    display: none;
-    visibility: hidden;
+.menu-logo {
+    width: 35px;
+    padding: 25px;
+}
+
+.menu-icon-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
 }
 
 /* form */
@@ -127,7 +134,7 @@
     .menu-list{
         display: flex;
         visibility: inherit;
-        padding: 20px;
+        padding: 35px 20px 20px 20px;
     }
 
     .menu-list li {
@@ -162,7 +169,7 @@
     .menu-list{
         display: flex;
         visibility: inherit;
-        padding: 20px;
+        padding: 35px 20px 20px 20px;
     }
 
     .menu-list li {
@@ -207,7 +214,7 @@
     .menu-list{
         display: flex;
         visibility: inherit;
-        padding: 20px;
+        padding: 35px 20px 20px 20px;
     }
 
     .menu-list li {
