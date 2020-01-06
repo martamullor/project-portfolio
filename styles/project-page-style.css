@@ -95,7 +95,7 @@
 }
 
 .project-img-left img {
-    width: 240px;
+    width: 220px;
     margin-top: 20px;
 }
 
@@ -112,7 +112,7 @@
 .project-button {
     font-size: 1.7rem;
     text-decoration: none;
-    padding: 15px 150px 15px 150px;
+    padding: 15px 100px 15px 100px;
     background-color: #2CEAA3;
     color: #242424;
 }
