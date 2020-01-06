@@ -1,21 +1,12 @@
-@font-face {
-    font-family: Kollektif;
-    src: url(Kollektif.ttf);
-    }
-
-@font-face {
-    font-family: Kollektif-Bold;
-    src: url(Kollektif-Bold.ttf);
-    }
-
 
 * {
     margin: 0px;
     padding: 0px;
     font-size: 10px;
-    font-family: Kollektif;
+    font-family: Kollektif;font-family: 'Roboto', sans-serif;
     color: #242424;
 }
+
 
 /* Nav */
 
@@ -27,7 +18,6 @@
     width: 100%; 
     z-index:1; 
 }
-
 
 .menu-logo-container {
     flex-grow: 1; 
@@ -42,7 +32,16 @@
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
-    margin-top: -20px;
+}
+
+.menu-icon {
+    width: 35px;
+    padding: 25px;
+}
+
+.menu-list{
+    display: none;
+    visibility: hidden;
 }
 
 /* form */

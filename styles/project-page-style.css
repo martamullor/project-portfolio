@@ -1,19 +1,9 @@
-@font-face {
-    font-family: Kollektif;
-    src: url(Kollektif.ttf);
-    }
-
-@font-face {
-    font-family: Kollektif-Bold;
-    src: url(Kollektif-Bold.ttf);
-    }
-
 
 * {
     margin: 0px;
     padding: 0px;
     font-size: 10px;
-    font-family: Kollektif;
+    font-family: 'Roboto', sans-serif;
     color: #242424;
 }
 
